@@ -1,0 +1,13 @@
+{
+  "ci": {
+    "collect": {
+      "url": "http://nginx",
+      "settings": {
+        "chromeFlags": "--no-sandbox"
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
